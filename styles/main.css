@@ -1,0 +1,58 @@
+.nav_bar {
+    border-bottom: 5px solid black;
+    background-color: rgb(53, 48, 56);
+    border-radius: 20px;
+}
+
+.nav_bar a {
+    font-size: 30px;
+    text-decoration:none;
+
+}
+.nav_bar a:hover {
+    animation: darkenOnHover .2s;
+    animation-fill-mode: forwards;
+}
+#title_name {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+        font-size: 3.5rem;
+        text-align: center;
+        font-weight: 1000;
+        font-family: sans-serif;
+  border-bottom: 5px solid white; width: 500px;
+}
+.homepage_project_image {
+    max-width: 600;
+    border-radius: 100px;
+    padding: 10px;
+    background-color: rgb(21, 20, 20)
+}
+.homepage_project_image:hover{
+    animation: darkenOnHover .2s;
+    animation-fill-mode: forwards;
+}
+.project_card_name  {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(187, 186, 186);
+}
+
+.project_card_about {
+    text-align: center;
+}
+
+.project_page_description {
+    margin-top: 1%;
+}
+
+@keyframes darkenOnHover{
+    0%{
+      -webkit-filter: brightness(100%);
+    }
+    100%{
+      -webkit-filter: brightness(70%);
+    }
+}
